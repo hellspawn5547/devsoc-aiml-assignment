@@ -1,0 +1,86 @@
+[
+    {
+        "id": 1,
+        "question": "What is an operating system?",
+        "response": "An operating system (OS) is system software that manages computer hardware, software resources, and provides common services for computer programs. It acts as an intermediary between users/applications and computer hardware (CPU, memory, storage, and I/O devices), performing key tasks such as process scheduling, memory allocation, file system management, and device control.",
+        "model": "gemini-1.5-flash",
+        "timestamp": "2026-10-18T16:30:00Z"
+    },
+    {
+        "id": 2,
+        "question": "What is the OSI model?",
+        "response": "The Open Systems Interconnection (OSI) model is a conceptual framework developed by the International Organization for Standardization (ISO) that standardizes the communication functions of a telecommunication or computing system into seven distinct abstract layers. It enables diverse communication systems to interoperate using standard protocols.",
+        "model": "gemini-1.5-flash",
+        "timestamp": "2026-10-18T16:30:02Z"
+    },
+    {
+        "id": 3,
+        "question": "Who was Alan Turing?",
+        "response": "Alan Turing (1912\u20131954) was an English mathematician, computer scientist, logician, and cryptanalyst widely considered the father of theoretical computer science and artificial intelligence. He formalized concepts of algorithm and computation with the Turing Machine, played a pivotal role in cracking intercepted Axis codes (notably the Enigma machine) at Bletchley Park during WWII, and formulated the Turing Test for machine intelligence.",
+        "model": "gemini-1.5-flash",
+        "timestamp": "2026-10-18T16:30:04Z"
+    },
+    {
+        "id": 4,
+        "question": "How do computer networks work?",
+        "response": "Computer networks work by connecting nodes (computers, servers, routers, switches) through physical or wireless media to transmit data formatted into packets. Network protocols (such as TCP/IP) govern packet structure, addressing (IP addresses), routing across networks, error detection, and reassembly at the receiving host.",
+        "model": "gemini-1.5-flash",
+        "timestamp": "2026-10-18T16:30:06Z"
+    },
+    {
+        "id": 5,
+        "question": "What is the Linux Kernel?",
+        "response": "The Linux kernel is the monolithic, open-source core of the Linux operating system. It operates at the lowest level between hardware and user space, directly managing hardware resources including CPU time slicing, virtual memory paging, device drivers, process isolation, and system call interfaces.",
+        "model": "gemini-1.5-flash",
+        "timestamp": "2026-10-18T16:30:08Z"
+    },
+    {
+        "id": 6,
+        "question": "What is a File system?",
+        "response": "A file system is a structured method and data structure that an operating system uses to organize, store, name, access, and retrieve files on storage media (such as SSDs, HDDs, or flash storage). Examples include ext4, NTFS, APFS, and FAT32.",
+        "model": "gemini-1.5-flash",
+        "timestamp": "2026-10-18T16:30:10Z"
+    },
+    {
+        "id": 7,
+        "question": "What is Docker?",
+        "response": "Docker is an open-source platform that enables developers to automate the deployment, scaling, and management of applications inside lightweight, portable software containers. Unlike hardware-virtualized virtual machines, Docker containers share the host OS kernel and isolate user spaces using Linux cgroups and namespaces, ensuring fast startup and high efficiency.",
+        "model": "gemini-1.5-flash",
+        "timestamp": "2026-10-18T16:30:12Z"
+    },
+    {
+        "id": 8,
+        "question": "What is a GPU and how is it different from a CPU?",
+        "response": "A Graphics Processing Unit (GPU) is a specialized electronic circuit designed for massively parallel data processing across thousands of smaller, efficient cores. In contrast, a Central Processing Unit (CPU) contains a small number of complex, highly optimized cores designed for sequential execution, branching logic, and low-latency single-thread tasks. GPUs excel at parallel matrix calculations essential for 3D graphics rendering and deep learning training.",
+        "model": "gemini-1.5-flash",
+        "timestamp": "2026-10-18T16:30:14Z"
+    },
+    {
+        "id": 9,
+        "question": "What are the layers of the OSI model?",
+        "response": "The OSI model consists of seven layers (from top to bottom):\n1. Layer 7 - Application (HTTP, FTP, DNS)\n2. Layer 6 - Presentation (Encryption, compression, formatting)\n3. Layer 5 - Session (Session management, authentication)\n4. Layer 4 - Transport (TCP, UDP, segment flow control)\n5. Layer 3 - Network (IP routing, logical addressing)\n6. Layer 2 - Data Link (Ethernet frames, MAC addressing, error checking)\n7. Layer 1 - Physical (Bits, electrical/optical signals, cables).",
+        "model": "gemini-1.5-flash",
+        "timestamp": "2026-10-18T16:30:16Z"
+    },
+    {
+        "id": 10,
+        "question": "What is BeeGFS?",
+        "response": "BeeGFS (formerly FhGFS) is a hardware-independent POSIX-compliant parallel cluster file system designed for High Performance Computing (HPC) and throughput-intensive workloads. It aggregates storage across multiple physical servers by striping data and distributing metadata transparently to maximize I/O throughput and eliminate performance bottlenecks.",
+        "model": "gemini-1.5-flash",
+        "timestamp": "2026-10-18T16:30:18Z"
+    },
+    {
+        "id": 11,
+        "question": "What are the various components that comprise a computer?",
+        "response": "The fundamental components of a computer architecture (Von Neumann model) include:\n- Central Processing Unit (CPU): Contains the ALU, Control Unit, and Registers.\n- Primary Memory (RAM): Volatile, high-speed working memory.\n- Secondary Storage: Non-volatile mass storage (SSD, NVMe, HDD).\n- Motherboard: Interconnecting printed circuit board with buses (PCIe, SATA).\n- Power Supply Unit (PSU): Supplies regulated DC power.\n- Input/Output (I/O) Devices: Keyboard, mouse, display monitors, and network interfaces.",
+        "model": "gemini-1.5-flash",
+        "timestamp": "2026-10-18T16:30:20Z"
+    },
+    {
+        "id": 12,
+        "question": "What is Federated Learning?",
+        "response": "Federated Learning is a decentralized machine learning technique where a central model is trained across multiple decentralized edge devices or servers holding local data samples without exchanging the raw data itself. Each device computes model weight updates (gradients) locally and sends only parameters to a central server for aggregation (e.g., via Federated Averaging), preserving user privacy and reducing bandwidth consumption.",
+        "model": "gemini-1.5-flash",
+        "timestamp": "2026-10-18T16:30:22Z"
+    }
+]
